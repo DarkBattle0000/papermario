@@ -641,8 +641,8 @@ Macros</h2></td></tr>
 <tr class="separator:a3c99321030bb09f0936873a23b680512"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a410df4f74a766c12bbb213417095e13d" id="r_a410df4f74a766c12bbb213417095e13d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a410df4f74a766c12bbb213417095e13d">SetUP_CAMERA_MINIMAL</a>()&#160;&#160;&#160;    <a class="el" href="#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="el" href="script__api_2common_8h.html#aeeb13c553a0619510ada6ee0353b57db">SetCamPerspective</a>, <a class="el" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1">CAM_DEFAULT</a>, <a class="el" href="enums_8h.html#ae76b2e2bd776df183fe7e1650a625856a54c06ad85adec7d9ad3854c8028e5534">CAM_UPDATE_FROM_ZONE</a>, 25, 16, 4096)</td></tr>
 <tr class="separator:a410df4f74a766c12bbb213417095e13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d005b3b1150a56c67f83b1622a50330" id="r_a3d005b3b1150a56c67f83b1622a50330"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d005b3b1150a56c67f83b1622a50330">SetUP_CAMERA_DEFAULT</a>()</td></tr>
-<tr class="separator:a3d005b3b1150a56c67f83b1622a50330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a489ea922652d8ab72caf781d8b4bc348" id="r_a489ea922652d8ab72caf781d8b4bc348"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a489ea922652d8ab72caf781d8b4bc348">EVT_SETUP_CAMERA_DEFAULT</a>()</td></tr>
+<tr class="separator:a489ea922652d8ab72caf781d8b4bc348"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a470a12ddfd2e3e327c814fe06f418d89" id="r_a470a12ddfd2e3e327c814fe06f418d89"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a470a12ddfd2e3e327c814fe06f418d89">SetUP_CAMERA_NO_LEAD</a>()</td></tr>
 <tr class="separator:a470a12ddfd2e3e327c814fe06f418d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90b06e65a6157803c14091aa3bbaf545" id="r_a90b06e65a6157803c14091aa3bbaf545"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90b06e65a6157803c14091aa3bbaf545">SetUP_CAMERA_ALT_NO_LEAD</a>()</td></tr>
@@ -3104,6 +3104,32 @@ Return                              // parent thread dies
 
 </div>
 </div>
+<a id="a489ea922652d8ab72caf781d8b4bc348" name="a489ea922652d8ab72caf781d8b4bc348"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a489ea922652d8ab72caf781d8b4bc348">&#9670;&#160;</a></span>EVT_SETUP_CAMERA_DEFAULT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EVT_SETUP_CAMERA_DEFAULT</td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#aeeb13c553a0619510ada6ee0353b57db">SetCamPerspective</a>, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1">CAM_DEFAULT</a>, <a class="code hl_enumvalue" href="enums_8h.html#ae76b2e2bd776df183fe7e1650a625856a54c06ad85adec7d9ad3854c8028e5534">CAM_UPDATE_FROM_ZONE</a>, 25, 16, 4096) \</div>
+<div class="line">    Call(<a class="code hl_function" href="script__api_2common_8h.html#a96f2326425863c7f09f088c91abefc66">SetCamBGColor</a>, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1">CAM_DEFAULT</a>, 0, 0, 0) \</div>
+<div class="line">    Call(<a class="code hl_function" href="script__api_2common_8h.html#a0b8811d178212138a64245e89571295d">SetCamEnabled</a>, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1">CAM_DEFAULT</a>, TRUE)</div>
+<div class="ttc" id="aenums_8h_html_ae76b2e2bd776df183fe7e1650a625856a54c06ad85adec7d9ad3854c8028e5534"><div class="ttname"><a href="enums_8h.html#ae76b2e2bd776df183fe7e1650a625856a54c06ad85adec7d9ad3854c8028e5534">CAM_UPDATE_FROM_ZONE</a></div><div class="ttdeci">@ CAM_UPDATE_FROM_ZONE</div><div class="ttdef"><b>Definition</b> enums.h:4707</div></div>
+<div class="ttc" id="aenums_8h_html_afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1"><div class="ttname"><a href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1">CAM_DEFAULT</a></div><div class="ttdeci">@ CAM_DEFAULT</div><div class="ttdef"><b>Definition</b> enums.h:1800</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a0b8811d178212138a64245e89571295d"><div class="ttname"><a href="script__api_2common_8h.html#a0b8811d178212138a64245e89571295d">SetCamEnabled</a></div><div class="ttdeci">ApiStatus SetCamEnabled(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_a96f2326425863c7f09f088c91abefc66"><div class="ttname"><a href="script__api_2common_8h.html#a96f2326425863c7f09f088c91abefc66">SetCamBGColor</a></div><div class="ttdeci">ApiStatus SetCamBGColor(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2common_8h_html_aeeb13c553a0619510ada6ee0353b57db"><div class="ttname"><a href="script__api_2common_8h.html#aeeb13c553a0619510ada6ee0353b57db">SetCamPerspective</a></div><div class="ttdeci">ApiStatus SetCamPerspective(Evt *script, b32 isInitialCall)</div></div>
+<div class="ttc" id="ascript__api_2macros_8h_html_adebe72a7dc0c86ea5913d44e43944cf2"><div class="ttname"><a href="#adebe72a7dc0c86ea5913d44e43944cf2">Call</a></div><div class="ttdeci">#define Call(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="a031e40f0ae3efe890005faf35207b628" name="a031e40f0ae3efe890005faf35207b628"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a031e40f0ae3efe890005faf35207b628">&#9670;&#160;</a></span>EVT_VEC2_OP</h2>
 
@@ -4846,7 +4872,7 @@ EndLoop
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="duplighost_8inc_8c.html#a61ccd5ad707f9bd01285e4f350daa20b">A()</a>, <a class="el" href="duplighost_8inc_8c.html#afe66a7599ccd780431ba30c23459ab84">A()</a>, <a class="el" href="duplighost_8inc_8c.html#a82fc8241586a9c29814f52a7145d206f">A()</a>, <a class="el" href="lee_8c.html#a1be7e24aad6ef4a31f70d268377796e4">A()</a>, <a class="el" href="goomba__king_8c.html#a7de1afbc970b6611b9d64da97292ae6e">A()</a>, <a class="el" href="functions_8h.html#ab3e7f2f7998fa1d5c863b61da49995b1">exec_ShakeCamX()</a>, <a class="el" href="part2_8inc_8c.html#a57cec49677bff1974f937ad3b29ccbb4">make_vine_interpolation()</a>, and <a class="el" href="nok__15__2__main_8c.html#a4e96916f3d71fe02e079bbb090e97f04">MAP_RODATA_PAD()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="duplighost_8inc_8c.html#a61ccd5ad707f9bd01285e4f350daa20b">A()</a>, <a class="el" href="duplighost_8inc_8c.html#afe66a7599ccd780431ba30c23459ab84">A()</a>, <a class="el" href="duplighost_8inc_8c.html#a82fc8241586a9c29814f52a7145d206f">A()</a>, <a class="el" href="lee_8c.html#a1be7e24aad6ef4a31f70d268377796e4">A()</a>, <a class="el" href="goomba__king_8c.html#a7de1afbc970b6611b9d64da97292ae6e">A()</a>, <a class="el" href="functions_8h.html#ab3e7f2f7998fa1d5c863b61da49995b1">exec_ShakeCamX()</a>, <a class="el" href="dead_2area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a57cec49677bff1974f937ad3b29ccbb4">make_vine_interpolation()</a>, and <a class="el" href="nok__15__2__main_8c.html#a4e96916f3d71fe02e079bbb090e97f04">MAP_RODATA_PAD()</a>.</p>
 
 </div>
 </div>
@@ -4862,7 +4888,7 @@ EndLoop
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="duplighost_8inc_8c.html#a61ccd5ad707f9bd01285e4f350daa20b">A()</a>, <a class="el" href="duplighost_8inc_8c.html#afe66a7599ccd780431ba30c23459ab84">A()</a>, <a class="el" href="duplighost_8inc_8c.html#a82fc8241586a9c29814f52a7145d206f">A()</a>, <a class="el" href="lee_8c.html#a1be7e24aad6ef4a31f70d268377796e4">A()</a>, <a class="el" href="goomba__king_8c.html#a7de1afbc970b6611b9d64da97292ae6e">A()</a>, <a class="el" href="functions_8h.html#ab3e7f2f7998fa1d5c863b61da49995b1">exec_ShakeCamX()</a>, <a class="el" href="part2_8inc_8c.html#a57cec49677bff1974f937ad3b29ccbb4">make_vine_interpolation()</a>, <a class="el" href="kkj__23__2__main_8c.html#a4e96916f3d71fe02e079bbb090e97f04">MAP_RODATA_PAD()</a>, and <a class="el" href="dgb__07__2__main_8c.html#a9357c1705986f18f87552e191ced2a4a">MAP_RODATA_PAD()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="duplighost_8inc_8c.html#a61ccd5ad707f9bd01285e4f350daa20b">A()</a>, <a class="el" href="duplighost_8inc_8c.html#afe66a7599ccd780431ba30c23459ab84">A()</a>, <a class="el" href="duplighost_8inc_8c.html#a82fc8241586a9c29814f52a7145d206f">A()</a>, <a class="el" href="lee_8c.html#a1be7e24aad6ef4a31f70d268377796e4">A()</a>, <a class="el" href="goomba__king_8c.html#a7de1afbc970b6611b9d64da97292ae6e">A()</a>, <a class="el" href="functions_8h.html#ab3e7f2f7998fa1d5c863b61da49995b1">exec_ShakeCamX()</a>, <a class="el" href="dead_2area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a57cec49677bff1974f937ad3b29ccbb4">make_vine_interpolation()</a>, <a class="el" href="kkj__23__2__main_8c.html#a4e96916f3d71fe02e079bbb090e97f04">MAP_RODATA_PAD()</a>, and <a class="el" href="dgb__07__2__main_8c.html#a9357c1705986f18f87552e191ced2a4a">MAP_RODATA_PAD()</a>.</p>
 
 </div>
 </div>
@@ -4878,7 +4904,7 @@ EndLoop
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="duplighost_8inc_8c.html#a82fc8241586a9c29814f52a7145d206f">A()</a>, <a class="el" href="functions_8h.html#ab3e7f2f7998fa1d5c863b61da49995b1">exec_ShakeCamX()</a>, <a class="el" href="part2_8inc_8c.html#a57cec49677bff1974f937ad3b29ccbb4">make_vine_interpolation()</a>, <a class="el" href="kkj__23__2__main_8c.html#a4e96916f3d71fe02e079bbb090e97f04">MAP_RODATA_PAD()</a>, and <a class="el" href="dgb__07__2__main_8c.html#a9357c1705986f18f87552e191ced2a4a">MAP_RODATA_PAD()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="duplighost_8inc_8c.html#a82fc8241586a9c29814f52a7145d206f">A()</a>, <a class="el" href="functions_8h.html#ab3e7f2f7998fa1d5c863b61da49995b1">exec_ShakeCamX()</a>, <a class="el" href="dead_2area__kzn_2kzn__19_2kzn__19__4__npc_8c.html#a57cec49677bff1974f937ad3b29ccbb4">make_vine_interpolation()</a>, <a class="el" href="kkj__23__2__main_8c.html#a4e96916f3d71fe02e079bbb090e97f04">MAP_RODATA_PAD()</a>, and <a class="el" href="dgb__07__2__main_8c.html#a9357c1705986f18f87552e191ced2a4a">MAP_RODATA_PAD()</a>.</p>
 
 </div>
 </div>
@@ -6136,33 +6162,7 @@ EndLoop
 <div class="line">    Call(<a class="code hl_function" href="script__api_2common_8h.html#a96f2326425863c7f09f088c91abefc66">SetCamBGColor</a>, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1">CAM_DEFAULT</a>, 0, 0, 0) \</div>
 <div class="line">    Call(<a class="code hl_function" href="script__api_2common_8h.html#ab71717029b1db31a1d356e233c4a87b6">SetCamLeadPlayer</a>, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1">CAM_DEFAULT</a>, FALSE) \</div>
 <div class="line">    Call(<a class="code hl_function" href="script__api_2common_8h.html#a0b8811d178212138a64245e89571295d">SetCamEnabled</a>, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1">CAM_DEFAULT</a>, TRUE)</div>
-<div class="ttc" id="aenums_8h_html_ae76b2e2bd776df183fe7e1650a625856a54c06ad85adec7d9ad3854c8028e5534"><div class="ttname"><a href="enums_8h.html#ae76b2e2bd776df183fe7e1650a625856a54c06ad85adec7d9ad3854c8028e5534">CAM_UPDATE_FROM_ZONE</a></div><div class="ttdeci">@ CAM_UPDATE_FROM_ZONE</div><div class="ttdef"><b>Definition</b> enums.h:4707</div></div>
-<div class="ttc" id="aenums_8h_html_afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1"><div class="ttname"><a href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1">CAM_DEFAULT</a></div><div class="ttdeci">@ CAM_DEFAULT</div><div class="ttdef"><b>Definition</b> enums.h:1800</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_a0b8811d178212138a64245e89571295d"><div class="ttname"><a href="script__api_2common_8h.html#a0b8811d178212138a64245e89571295d">SetCamEnabled</a></div><div class="ttdeci">ApiStatus SetCamEnabled(Evt *script, b32 isInitialCall)</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_a96f2326425863c7f09f088c91abefc66"><div class="ttname"><a href="script__api_2common_8h.html#a96f2326425863c7f09f088c91abefc66">SetCamBGColor</a></div><div class="ttdeci">ApiStatus SetCamBGColor(Evt *script, b32 isInitialCall)</div></div>
 <div class="ttc" id="ascript__api_2common_8h_html_ab71717029b1db31a1d356e233c4a87b6"><div class="ttname"><a href="script__api_2common_8h.html#ab71717029b1db31a1d356e233c4a87b6">SetCamLeadPlayer</a></div><div class="ttdeci">ApiStatus SetCamLeadPlayer(Evt *script, b32 isInitialCall)</div></div>
-<div class="ttc" id="ascript__api_2common_8h_html_aeeb13c553a0619510ada6ee0353b57db"><div class="ttname"><a href="script__api_2common_8h.html#aeeb13c553a0619510ada6ee0353b57db">SetCamPerspective</a></div><div class="ttdeci">ApiStatus SetCamPerspective(Evt *script, b32 isInitialCall)</div></div>
-<div class="ttc" id="ascript__api_2macros_8h_html_adebe72a7dc0c86ea5913d44e43944cf2"><div class="ttname"><a href="#adebe72a7dc0c86ea5913d44e43944cf2">Call</a></div><div class="ttdeci">#define Call(FUNC, ARGS...)</div><div class="ttdoc">Calls a given C EVT API function with any number of arguments.</div><div class="ttdef"><b>Definition</b> macros.h:588</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a3d005b3b1150a56c67f83b1622a50330" name="a3d005b3b1150a56c67f83b1622a50330"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d005b3b1150a56c67f83b1622a50330">&#9670;&#160;</a></span>SetUP_CAMERA_DEFAULT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SetUP_CAMERA_DEFAULT</td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="#adebe72a7dc0c86ea5913d44e43944cf2">Call</a>(<a class="code hl_function" href="script__api_2common_8h.html#aeeb13c553a0619510ada6ee0353b57db">SetCamPerspective</a>, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1">CAM_DEFAULT</a>, <a class="code hl_enumvalue" href="enums_8h.html#ae76b2e2bd776df183fe7e1650a625856a54c06ad85adec7d9ad3854c8028e5534">CAM_UPDATE_FROM_ZONE</a>, 25, 16, 4096) \</div>
-<div class="line">    Call(<a class="code hl_function" href="script__api_2common_8h.html#a96f2326425863c7f09f088c91abefc66">SetCamBGColor</a>, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1">CAM_DEFAULT</a>, 0, 0, 0) \</div>
-<div class="line">    Call(<a class="code hl_function" href="script__api_2common_8h.html#a0b8811d178212138a64245e89571295d">SetCamEnabled</a>, <a class="code hl_enumvalue" href="enums_8h.html#afbfbe32aeee992982c90abc082d07959a2f6ecd22976cb0662ad27ae8b43256c1">CAM_DEFAULT</a>, TRUE)</div>
 </div><!-- fragment -->
 </div>
 </div>

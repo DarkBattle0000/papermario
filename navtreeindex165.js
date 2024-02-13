@@ -245,8 +245,8 @@ var NAVTREEINDEX165 =
 "kkj__00__1__music_8c.html":[2,0,1,8,12,1,2],
 "kkj__00__2__main_8c.html":[2,0,1,8,12,1,3],
 "kkj__00__3__npc__intro_8c.html":[2,0,1,8,12,1,4],
-"kkj__00__3__npc__intro_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,8,12,1,4,0],
 "kkj__00__3__npc__intro_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,8,12,1,4,1],
+"kkj__00__3__npc__intro_8c.html#a02c6d39594a3aa893a4c7c5729890618":[2,0,1,8,12,1,4,0],
 "kkj__00__4__scene__intro_8c.html":[2,0,1,8,12,1,5],
 "kkj__00__5__npc__ending_8c.html":[2,0,1,8,12,1,6],
 "kkj__00__6__scene__ending_8c.html":[2,0,1,8,12,1,7]

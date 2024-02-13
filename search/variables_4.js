@@ -2160,7 +2160,7 @@ var searchData=
   ['dropdistance_2157',['dropDistance',['../obk__01__3__chandelier_8c.html#ab24cf2881f967a0401b93153535f738e',1,'Chandelier']]],
   ['dropflags_2158',['dropFlags',['../npc_8h.html#a96bd54761b6cea4e42e3af611d93ec99',1,'EnemyDrops::dropFlags'],['../npc_8h.html#a49941b14603addb79c1ff8d670fbe869',1,'EnemyDropsFlat::dropFlags']]],
   ['dropleaves_2159',['dropLeaves',['../effects_8h.html#a0f6f10dce2ef3539dd39cd888534b0f5',1,'EffectData']]],
-  ['drops_2160',['drops',['../npc_8h.html#a22d166f7ff237d7e8ac37762e53350ac',1,'NpcData::drops'],['../npc_8h.html#a2b5249f73b396372f42d6ca0210a3098',1,'Enemy::drops'],['../FoliageTransform_8inc_8c.html#a943b88316bb933a3860dcd7bb2c2e618',1,'FoliageDropList::drops'],['../FoliageTransform_8inc_8c.html#ae36f470c8f1ed3e0c8e4ee3cc59aa23d',1,'SearchBushConfig::drops'],['../FoliageTransform_8inc_8c.html#a66a7b8981f12ab6d01db391e75e8c385',1,'ShakeTreeConfig::drops']]],
+  ['drops_2160',['drops',['../npc_8h.html#a22d166f7ff237d7e8ac37762e53350ac',1,'NpcData::drops'],['../npc_8h.html#a2b5249f73b396372f42d6ca0210a3098',1,'Enemy::drops'],['../FoliageTransform_8inc_8c.html#a868fca656339aa221cbb3f284bd9800b',1,'FoliageDropList::drops'],['../FoliageTransform_8inc_8c.html#ae36f470c8f1ed3e0c8e4ee3cc59aa23d',1,'SearchBushConfig::drops'],['../FoliageTransform_8inc_8c.html#a66a7b8981f12ab6d01db391e75e8c385',1,'ShakeTreeConfig::drops']]],
   ['dropwhackabump_2161',['dropWhackaBump',['../npc_8h.html#acfd071b72ff0256882ce63911f99ae59',1,'EncounterStatus']]],
   ['drotreehinttime_2162',['droTreeHintTime',['../common__structs_8h.html#a6bb41563083fff4d0625bee4a29c2c70',1,'PlayerData']]],
   ['drumcount_2163',['drumCount',['../audio_8h.html#a01cb8f42cbcd0916501a09c84e149bb4',1,'BGMFileInfo']]],
